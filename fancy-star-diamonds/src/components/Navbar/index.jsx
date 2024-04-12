@@ -19,7 +19,7 @@ const Navbar = () => {
         <div>Languages</div>
       </div>
       <div className="sm:hidden">
-        <img src={menu} className="h-[30px] pr-4" />
+        <img src={menu} className="h-[20px] pr-4" />
       </div>
     </div>
   );

@@ -1,0 +1,16 @@
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.main-container {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+.main-container img {
+  display: block;
+  width: 100px;
+}
