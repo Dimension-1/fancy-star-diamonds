@@ -4,4 +4,15 @@
 
 body {
   background: #fef4e9;
+  font-family: poppins;
+}
+h5 {
+  color: transparent; /* Make the text transparent */
+  -webkit-text-fill-color: transparent; /* Set the text fill color (for WebKit/Blink browsers) */
+  text-fill-color: transparent; /* Set the text fill color (standard property) */
+  -webkit-text-stroke: 1px #d2b976; /* Add a black stroke around the text */
+  text-stroke: 1px #d2b976; /* Add a black stroke around the text */
+}
+.scrollbar::-webkit-scrollbar {
+  display: none;
 }

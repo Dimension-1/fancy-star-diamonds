@@ -14,7 +14,7 @@ const Hero = () => {
             className="w-[100%] object-cover h-[800px] hidden sm:flex"
           />
         </div>
-        <div className="absolute top-4 left-4 sm:left-[100px] lg:top-[400px] w-[328px] sm:w-[500px] lg:w-[1000px]">
+        <div className="absolute top-4 left-4 sm:left-[100px] lg:top-[400px] w-[328px] sm:w-[500px] lg:w-[900px] xl:w-[1000px]">
           <h1 className=" text-white text-[32px] md:text-[64px] leading-10 md:leading-[72px]">
             India’s First Specialists in Marquise & Pearl Shaped Diamonds
           </h1>

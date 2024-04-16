@@ -16,7 +16,7 @@ const items = [
 const Services = () => {
   return (
     <div className="bg-[#fef4e9] py-20">
-      <div className="flex flex-wrap  gap-x-10 w-[340px] lg:w-[1300px] mx-auto">
+      <div className="flex flex-wrap  gap-x-10 w-[340px] sm:w-fit mx-auto">
         {items.map((item, index) => (
           <div
             key={index}
@@ -36,10 +36,10 @@ const Services = () => {
         ))}
       </div>
       <div className=" mt-8 sm:mt-20">
-        <h1 className="text-[#111c7a] font-bold text-[64px] md:text-[128px] leading-[78px] text-center">
+        <h1 className="text-[#111c7a] font-bold text-[64px] md:text-[128px] md:leading-[98px] text-center">
           Placeholder Line Here
         </h1>
-        <h2 className="text-[#111c7a] text-[12px] md:text-[16px] leading-6 text-center pt-4 md:pt-16 sm:w-[700px] sm:mx-auto">
+        <h2 className="text-[#111c7a] text-[12px] md:text-[16px] leading-6 text-center pt-4 md:pt-16 sm:w-[600px] sm:mx-auto">
           This is a placeholder line For over 100 years we have enriched,
           delighted and enlightened people with our world of gems, jewellery and
           real estate.
