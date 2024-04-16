@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import arrow from "../../assets/arrow.svg";
 import ringshadow from "../../assets/ringshadow.svg";
 import diamonds from "../../assets/diamonds.svg";
@@ -77,10 +78,12 @@ const Whoweare = () => {
         </p>
       </div>
       <div className="flex mt-8 justify-center lg:mt-[100px] pb-8">
-        <div className="flex bg-[#D8A99E] w-fit py-4 px-6 gap-x-4 rounded-full">
-          <h1 className="text-[#111c7a] font-bold">READ MORE ABOUT US</h1>
-          <img src={arrow} />
-        </div>
+        <Link to="/aboutus">
+          <div className="flex bg-[#D8A99E] w-fit py-4 px-6 gap-x-4 rounded-full">
+            <h2 className="text-[#111c7a] font-bold">READ MORE ABOUT US</h2>
+            <img src={arrow} />
+          </div>
+        </Link>
       </div>
     </>
   );

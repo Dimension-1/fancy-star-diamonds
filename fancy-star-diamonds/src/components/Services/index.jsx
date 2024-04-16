@@ -16,13 +16,13 @@ const items = [
 const Services = () => {
   return (
     <div className="bg-[#fef4e9] py-20">
-      <div className="flex flex-wrap  gap-x-10 w-[340px] sm:w-fit mx-auto">
+      <div className="flex flex-wrap  gap-x-10 w-[340px] xl:w-fit mx-auto">
         {items.map((item, index) => (
           <div
             key={index}
-            className="bg-[#A9C4C9] relative mt-16 w-[150px] lg:w-[180px] h-[170px] rounded-lg"
+            className="bg-[#A9C4C9] relative mt-16 w-[150px] xl:w-[180px] h-[170px] rounded-lg"
           >
-            <div className="bg-[#111C7A] absolute top-[-40px] lg:left-12 left-9 py-2 px-4 rounded-lg">
+            <div className="bg-[#111C7A] absolute top-[-40px] xl:left-12 left-9 py-2 px-4 rounded-lg">
               <img
                 src={item.imgSrc}
                 className="h-[50px] w-[50px]"
@@ -35,8 +35,8 @@ const Services = () => {
           </div>
         ))}
       </div>
-      <div className=" mt-8 sm:mt-20">
-        <h1 className="text-[#111c7a] font-bold text-[64px] md:text-[128px] md:leading-[98px] text-center">
+      <div className=" mt-8  sm:w-[fit] sm:mt-20">
+        <h1 className="text-[#111c7a] font-bold text-[60px] leading-[78px] md:text-[128px] md:leading-[98px] text-center">
           Placeholder Line Here
         </h1>
         <h2 className="text-[#111c7a] text-[12px] md:text-[16px] leading-6 text-center pt-4 md:pt-16 sm:w-[600px] sm:mx-auto">
@@ -45,9 +45,11 @@ const Services = () => {
           real estate.
         </h2>
         <div className="flex justify-center mt-8">
-          <div className="flex bg-[#D8A99E] w-fit py-4 px-6 gap-x-4 rounded-full">
-            <h1 className="text-[#111c7a]">KNOW MORE ABOUT OUR OPERATIONS</h1>
-            <img src={arrow} />
+          <div className="flex bg-[#D8A99E] w-fit py-4 md:px-4 px-2 gap-x-2 rounded-full">
+            <h2 className="text-[#111c7a] text-[11px] md:text-[16px]">
+              KNOW MORE ABOUT OUR OPERATIONS
+            </h2>
+            <img src={arrow} className="w-[8px] sm:w-[12px]" />
           </div>
         </div>
       </div>

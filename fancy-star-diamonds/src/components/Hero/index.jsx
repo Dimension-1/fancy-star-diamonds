@@ -18,10 +18,10 @@ const Hero = () => {
           <h1 className=" text-white text-[32px] md:text-[64px] leading-10 md:leading-[72px]">
             India’s First Specialists in Marquise & Pearl Shaped Diamonds
           </h1>
-          <h1 className="text-white text-[12px] md:text-[16px] mt-4 md:mt-8 leading-6">
+          <h2 className="text-white text-[12px] md:text-[16px] mt-4 md:mt-8 leading-6">
             This is a placeholder line Fancy star diamonds is a dubai based
             company withstate of the art manufacturing unit in india.
-          </h1>
+          </h2>
         </div>
         <div className="sm:flex sm:justify-center">
           <img

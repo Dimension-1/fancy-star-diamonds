@@ -1,24 +1,29 @@
 import React from "react";
 import logo from "../../assets/logo.svg";
 import menu from "../../assets/menu.svg";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="bg-[#0A0E25] flex items-center justify-between sm:justify-around">
-      <div className="hidden sm:flex gap-x-8 text-white text-[16px]">
-        <div>Home</div>
-        <div>About Us</div>
+    <div className="bg-[#0A0E25] flex items-center justify-between md:justify-around">
+      <div className="hidden md:flex gap-x-8 text-white text-[16px]">
+        <Link to="/">
+          <div>Home</div>
+        </Link>
+        <Link to="/aboutus">
+          <div>About Us</div>
+        </Link>
         <div>Operations</div>
       </div>
       <div>
-        <img src={logo} className="sm:h-[150px]" />
+        <img src={logo} className=" lg:h-[150px]" />
       </div>
-      <div className="hidden sm:flex gap-x-8 text-white text-[16px]">
+      <div className="hidden md:flex gap-x-8 text-white text-[16px]">
         <div>Knowledge</div>
         <div>Contact Us</div>
         <div>Languages</div>
       </div>
-      <div className="sm:hidden">
+      <div className="md:hidden">
         <img src={menu} className="h-[20px] pr-4" />
       </div>
     </div>

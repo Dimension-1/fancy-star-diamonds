@@ -6,6 +6,7 @@ import Collection from "../components/Collection";
 import Whoweare from "../components/Whoweare";
 import Process from "../components/Process";
 import Footer from "../components/Footer";
+import FooterForm from "../components/FooterForm";
 
 const Homepage = () => {
   return (
@@ -16,6 +17,7 @@ const Homepage = () => {
       <Whoweare />
       {/* <Collection /> */}
       <Process />
+      <FooterForm />
       <Footer />
     </>
   );
