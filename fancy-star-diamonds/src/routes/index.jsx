@@ -3,6 +3,7 @@ import AboutUs from "../section/AboutUs";
 import App from "../App";
 import Knowledge from "../section/Knowledge";
 import ContactUs from "../section/ContactUs";
+import Operations from "../section/Operations";
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
   {
     path: "/contactus",
     element: <ContactUs />,
+  },
+  {
+    path: "/operations",
+    element: <Operations />,
   },
 ]);
 

@@ -13,7 +13,9 @@ const Navbar = () => {
         <Link to="/aboutus">
           <div>About Us</div>
         </Link>
-        <div>Operations</div>
+        <Link to="/operations">
+          <div>Operations</div>
+        </Link>
       </div>
       <div>
         <img src={logo} className=" lg:h-[150px]" />
@@ -22,7 +24,9 @@ const Navbar = () => {
         <Link to="/knowledge">
           <div>Knowledge</div>
         </Link>
-        <div>Contact Us</div>
+        <Link to="/contactus">
+          <div>Contact Us</div>
+        </Link>
         <div>Languages</div>
       </div>
       <div className="md:hidden">
